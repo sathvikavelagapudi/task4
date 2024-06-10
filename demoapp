@@ -1,0 +1,21 @@
+spring.application.name=demo
+my.info.Student.id=1
+my.info.Student.name=sathvika
+my.info.Student.year=4
+my.info.Student..branch=CSE
+
+
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("1 sathvika 4 CSE");
+	}
+
+}
